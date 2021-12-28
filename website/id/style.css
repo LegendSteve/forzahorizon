@@ -1,0 +1,75 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+#container {
+	background-color: black;
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+#gear {
+	color: red;
+	font-size: 150px;
+	font-family: Orbitron;
+	margin: 5px;
+}
+
+#speed {
+	color: #17d4fe;
+	font-size: 200px;
+	font-family: Orbitron;
+}
+
+#ref {
+	color: green;
+	font-size: 150px;
+	font-family: Orbitron;
+}
+
+#rpm {
+	position: absolute;
+	height: var(--rpm);
+	width: 50px;
+	background-color: var(--x);
+}
+
+#gas {
+	position: absolute;
+	top: 0;
+	right: 100px;
+	height: var(--gas);
+	width: 50px;
+	background-color: lime;
+}
+
+#clutch {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	height: var(--clutch);
+	width: 50px;
+	background-color: blue;
+}
+
+#break {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: var(--brake);
+	width: 50px;
+	background-color: red;
+}
